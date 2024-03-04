@@ -9,6 +9,21 @@
     <link  rel="stylesheet" href="../cabecera.css">
     <link  rel="stylesheet" href="style.css">
 </head>
+<style>
+    .contenedor{
+        position: relative;
+        display: inline-block;
+        text-align: center;
+    }
+     
+    
+    .centrado{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    </style>
 <body>
     <header class="header">
         <div class="logo">
@@ -21,6 +36,8 @@
                 <li><a href="/horarios/index.html">Horarios</a></li>
                 <li><a href="/karting/index.html">Karting</a></li>
                 <li><a href="/reservar/index.html">Reservar</a></li>
+                <li><a href="/eventos/index.html">Reservar</a></li>
+                <li><a href="/contactanos/index.html">Reservar</a></li>
            </ul>           
         </nav>
         <a class="btn" href="/log-in/index.html"><button>Log-In</button></a>
@@ -32,6 +49,30 @@
     </div>
     <section class="circuitos">
         <h2>Echa un vistazo a nuestros centros de Karting y sus trazados!</h2>
+        <div class="pistas">
+            <img src="img/LasRozas.png"  alt="Las Rozas" >
+            <img src="img/Madrid.png"  alt="Madrid">
+        </div>
+    </section>
+    <section id="carrusel">
+        <div class="carruselContainer">
+            <figure class="carrusel-item">
+                <img src="img/RozasTrazado.png" alt="LasRozas">
+                <figcaption>Trazado de Las Rozas</figcaption>
+            </figure>
+            <figure class="carrusel-item">
+                <img src="img/MadridOutdoor.png" alt="Imagen 2">
+                <figcaption>Trazado de Madrid - La Ermita OutDoor</figcaption>
+            </figure>
+            <figure class="carrusel-item">
+                <img src="img/MadridOutdoor.png" alt="Imagen 3">
+                <figcaption>Trazado de Madrid - La Ermita InDoor</figcaption>
+            </figure>
+        </div>
+        <nav class="carrusel-navegacion">
+            <button class="nav-button prev-button">Anterior</button>
+            <button class="nav-button next-button">Siguiente</button>
+        </nav>
     </section>
     <footer>
         <img src="../img/logo2.png">
@@ -50,5 +91,6 @@
                 &emsp;&emsp;Anuncios basados en intereses</p>
         </div>
     </footer>
+    <script src="script.js"></script>
 </body>
 </html>
