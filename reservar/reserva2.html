@@ -7,7 +7,7 @@
     <link rel="web icon" type="png" href="../img/logo2.png"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
     <link  rel="stylesheet" href="../cabecera.css">
-    <link  rel="stylesheet" href="style.css">
+    <link  rel="stylesheet" href="reserva2.css">
 </head>
 <body>
     <header class="header">
@@ -26,6 +26,58 @@
         <a class="btn" href="/log-in/index.html"><button>Log-In</button></a>
     </header>
 
+
+
+
+
+    <div class="container">
+        
+        <h2>Formulario de reserva</h2>
+        <br>
+        <form action="mail.php" enctype="multipart/form-data" method="post" name="formulario_html5" autocomplete="off">
+        <label for="nombre">Nombre</label></br>
+        <input type="text" name="nombre" id="nombre" class="cajas"></br>
+        
+        <label for="email">Email</label></br>
+        <input type="email" name="email" id="email" class="cajas"></br>
+    
+        <label for="telefono">Teléfono</label></br>
+        <input type="number" name="telefono" id="telefono" class="cajas"></br>
+    
+        <label for="llegada">Fecha y hora de reserva</label></br>
+        <input type="datetime-local" id="llegada" name="fecha-hora-llegada" class="cajas">
+        </br>
+    
+        <label for="estadia">Número de sesiones</label></br>
+        <p>15 min por sesión</p>
+        <select id="estadia" class="cajas">
+        <option value="1" label="1">
+        <option value="2" label="2">
+        <option value="3" label="3">
+        <option value="4" label="4">
+        <option value="5" label="5">
+        
+        </select></br>
+        
+        
+            <label for="estadia">Número de personas</label></br>
+            <select id="estadia" class="cajas">
+            <option value="1" label="1">
+            <option value="2" label="2">
+            <option value="3" label="3">
+            <option value="4" label="4">
+            <option value="5" label="5">
+            </select>
+            <br>
+        
+        <input type="submit" value="enviar" name="submit" class="btn1">
+    
+    </form>
+    
+    
+    
+    </div>
+    </div>
 
 
 
