@@ -31,11 +31,13 @@ body{
     background-image: url(./img//IMG_7839-2-1920x900.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    
 }
 #boton{
+    text-align: left;
+    margin-top: 160px;
     
-    border: 2px solid white;
-    width: 50%;
+
 }
 #nom2{
     
