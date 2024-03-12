@@ -89,32 +89,15 @@ span{
     background-color: #f8f8f8;
     color: black;
  }
- #karts{
-    background-color: #1e1e1e;
-    padding: 2%;
-    color: #f8f8f8;
-    background-size: 150px;
-    background-size: 100%;
-    text-align: center;
-    font-size: 35px;
- }
- #parrafoKarts{
-    text-align: center;
-    padding-left: 20%;
-    padding-right: 20%;
-    padding-top: 3%;
-    padding-bottom: 3%;
- }
+
  .productos {
    background-color: #fff;
-   border: 1px solid #cccccc;
+   border: 3px solid black;
    position: relative;
    border-radius: 8px;
-   border-bottom-left-radius: 2px solid red;
    margin: 15px;
-   padding: 15px;
    width: 40%;
-   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
    transition: transform 0.3s ease-in-out;
 }
 .productos img{
@@ -124,7 +107,8 @@ span{
 .productos h2{
    color: #f8f8f8;
    background-color: #EE0000;
-   padding: 1vh;
+   padding: 0.6vh;
+   text-align: center;
    border-radius: 8px;
    position: absolute;
    top: 50%;
@@ -137,20 +121,4 @@ span{
    transform: scale(1.05);
    border-bottom-right-radius: 8px;
    border-color: #cccccc red red #cccccc;
-}
-
-.productos h2 {
-   color: #1e1e1e;
-}
-
-.productos2 {
-   background-image: url(img/chasis.webp);
-   border: 1px solid #cccccc;
-   border-radius: 8px;
-   border-bottom-left-radius: 2px solid red;
-   margin: 15px;
-   padding: 15px;
-   width: 40%;
-   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-   transition: transform 0.3s ease-in-out;
 }
