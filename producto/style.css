@@ -7,6 +7,21 @@
 .info h2{
     font-size: 35px;
 }
+span{
+   display: block;
+   white-space: nowrap;
+   width: 100%;
+
+   animation: typing 2s steps(25), blink .5s infinite step-end alternate
+   ;overflow: hidden;
+}
+@keyframes typing{
+   from{width: 0;}
+}
+
+@keyframes blink{
+   50%{border-color: transparent;}
+}
 .circuitos h2{
     text-align: center;
     margin: 2%;
