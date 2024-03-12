@@ -1,0 +1,68 @@
+.container{
+    background-repeat: repeat;
+    background-size: 100%;
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    color: #000000;
+    padding: 30px;
+    background-image: url(/ZoomKarting/reservar/img/Centurion-left-curve-1.jpg), ;
+    
+    
+}
+
+.main h2{
+    
+    color: #f7c5d9;
+    font-size: 200%;
+    text-shadow: 3px 3px 2px #000;
+}
+
+/*FORM*/
+.main form{
+    background-color: rgba(0,0,0,0.8);
+    text-align: left;
+    padding: 20px;
+    font-size: 1.3em;
+    
+
+}
+/*input*/
+.cajas{
+    border-radius: 5px;
+    
+    margin: 15px 0;
+    background-color: #fd4444;
+    border: 2px solid #fff;
+}
+
+
+
+/*botón*/
+.btn1{
+    height: 40px;
+    padding: 10px 40px;
+    border-radius: 7px;
+    background-color: #000;
+    color: #9ABCBD;
+    font-weight: 700;
+    text-transform: uppercase;
+    border: 0;
+}
+
+.btn1:hover{
+    box-shadow: 3px 3px 5px #000;
+    background-color: #ff0303;
+    color: #000;
+}
+
+p{
+    font-size: small;
+}
+
+
+body{
+    background-image: url(/ZoomKarting/reservar/img/carlos-sainz-karting.jpg);
+    backdrop-filter: blur(6px);
+    
+}
