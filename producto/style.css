@@ -32,18 +32,54 @@ span{
 
 }.pistas{
     display: flex;
-    justify-content: space-evenly;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
-.pistas img{
+.pistas span{
+   text-align: center;
+   font-weight: normal;
+   color: #f8f8f8;
+   background-color: #EE0000;
+   border-radius: 4px;
+}
+#Rozas{
     border: 3px solid black;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    width: 75vh;
+    height: 45vh;
+    background-image: url("img/LasRozas.png");
+    background-size: cover;
     transition: transform 0.3s ease-in-out;    
-    width: 40%;
 }
-.pistas img:hover{
-    transform: scale(1.05);
-    border-color: #EE0000;
+
+#Rozas:hover{
+   transform: scale(1.05);
+   border-color: #EE0000;
+   background-image: url("img/Diseño\ sin\ título.gif");
+   background-size: cover;
+
+}
+
+
+
+#Madrid{
+   border: 3px solid black;
+   border-radius: 8px;
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+   transition: transform 0.3s ease-in-out;    
+   width: 75vh;
+   height: 45vh;
+   background-image: url("img/Madrid.png");
+   background-size: cover;
+}
+
+#Madrid:hover{
+   transform: scale(1.05);
+   border-color: #EE0000;
+   background-image: url("img/Diseño\ sin\ título.gif");
+   background-size: cover;
+
 }
 #carrusel {
     width: 80%;
@@ -89,7 +125,11 @@ span{
     background-color: #f8f8f8;
     color: black;
  }
-
+.venta{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-around;
+}
  .productos {
    background-color: #fff;
    border: 3px solid black;

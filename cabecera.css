@@ -13,12 +13,7 @@ body {
     margin: 0;
     padding: 0;
 }
-main {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    padding: 20px;
-}
+
 
 .header{
     background-color: #f8f8f8;
