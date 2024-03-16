@@ -1,3 +1,4 @@
+
 .info {
     background-color: #1e1e1e;
     color: #f8f8f8;
@@ -6,21 +7,6 @@
 }
 .info h2{
     font-size: 35px;
-}
-span{
-   display: block;
-   white-space: nowrap;
-   width: 100%;
-
-   animation: typing 2s steps(25), blink .5s infinite step-end alternate
-   ;overflow: hidden;
-}
-@keyframes typing{
-   from{width: 0;}
-}
-
-@keyframes blink{
-   50%{border-color: transparent;}
 }
 .circuitos h2{
     text-align: center;
@@ -37,7 +23,7 @@ span{
 }
 .pistas span{
    text-align: center;
-   font-weight: normal;
+   font-size: x-large;
    color: #f8f8f8;
    background-color: #EE0000;
    border-radius: 4px;
@@ -52,16 +38,14 @@ span{
     background-size: cover;
     transition: transform 0.3s ease-in-out;    
 }
-
+/* Animacion para al pasar por el circuito de Las Rozas pase de una imagen a un gif de como se vive el circuito*/
 #Rozas:hover{
    transform: scale(1.05);
    border-color: #EE0000;
-   background-image: url("img/Diseño\ sin\ título.gif");
+   background-image: url("img/Rozas.gif");
    background-size: cover;
 
 }
-
-
 
 #Madrid{
    border: 3px solid black;
@@ -73,11 +57,11 @@ span{
    background-image: url("img/Madrid.png");
    background-size: cover;
 }
-
+/* Animacion para al pasar por el circuito de Madrid pase de una imagen a un gif de como se vive el circuito*/
 #Madrid:hover{
    transform: scale(1.05);
    border-color: #EE0000;
-   background-image: url("img/Diseño\ sin\ título.gif");
+   background-image: url("img/Madrid.gif");
    background-size: cover;
 
 }
@@ -136,7 +120,7 @@ span{
    position: relative;
    border-radius: 8px;
    margin: 15px;
-   width: 40%;
+   width: 35%;
    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
    transition: transform 0.3s ease-in-out;
 }
@@ -147,6 +131,7 @@ span{
 .productos h2{
    color: #f8f8f8;
    background-color: #EE0000;
+   font-size: x-large;
    padding: 0.6vh;
    text-align: center;
    border-radius: 8px;
@@ -155,7 +140,6 @@ span{
    left: 50%;
    transform: translate(-50%, -50%);
 }
-
 
 .productos:hover {
    transform: scale(1.05);

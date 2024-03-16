@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;800&display=swap');
-
 *{
     box-sizing: border-box;
     margin: 0;
@@ -12,8 +11,8 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
     padding: 0;
+    background-color: #f8f8f8;
 }
-
 
 .header{
     background-color: #f8f8f8;
@@ -76,6 +75,22 @@ body {
     color: black;
     transform: scale(1.1);
 }
+span{
+    display: block;
+    white-space: nowrap;
+    width: 100%;
+ 
+    animation: typing 2s steps(333), blink .5s infinite step-end alternate
+    ;overflow: hidden;
+ }
+ /* Efecto para que aparezcan las letras poco a poco con el span*/
+ @keyframes typing{
+    from{width: 0;}
+ }
+ 
+ @keyframes blink{
+    50%{border-color: transparent;}
+ }
 footer img{
     width: 5%;
     margin-left: 10%;

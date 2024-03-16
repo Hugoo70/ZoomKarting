@@ -1,0 +1,59 @@
+.intro {
+    background-image: url("img/kart.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 55vh;
+    text-align: center;
+    padding: 2%;
+}
+.intro h2{
+    font-size: x-large;
+}
+.intro:hover {
+    background-color: #9E9E9E;
+    animation: temblor 0.1s infinite alternate;
+}
+/*Crear un efecto para intro donde tiemble para que sea la sensación de cuando arrancas uno*/
+@keyframes temblor {
+  0% {
+    transform: translate(0);
+  }
+  100% {
+    transform: translate(-1.05px, -1.05px);
+  }
+}
+
+.info {
+    background-color: #1e1e1e;
+    color: #f8f8f8;
+    padding: 2%;
+    text-align: center;
+}
+.info h2{
+    font-size: 35px;
+}
+.competitivo{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 2%;
+ }
+  .tarjeta {
+    background-color: #fff;
+    border: 3px solid black;
+    position: relative;
+    border-radius: 8px;
+    margin: 15px;
+    width: 35%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s ease-in-out;
+ }
+ .tarjeta img{
+    width: 100%;
+    border-radius: 8px;
+ } 
+ .tarjeta:hover {
+    transform: scale(1.05);
+    border-bottom-right-radius: 8px;
+    border-color: #cccccc red red #cccccc;
+ }
