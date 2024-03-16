@@ -90,11 +90,7 @@ span{
  @keyframes blink{
     50%{border-color: transparent;}
  }
-footer img{
-    width: 5%;
-    margin-left: 10%;
-    margin-right: 3%;
-}
+
 footer {
     background-color: #1e1e1e;
     color: white;

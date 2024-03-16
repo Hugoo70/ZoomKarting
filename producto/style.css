@@ -34,7 +34,7 @@
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
     width: 75vh;
     height: 45vh;
-    background-image: url("img/LasRozas.png");
+    background-image: url("img/LasRozas.webp");
     background-size: cover;
     transition: transform 0.3s ease-in-out;    
 }
@@ -54,7 +54,7 @@
    transition: transform 0.3s ease-in-out;    
    width: 75vh;
    height: 45vh;
-   background-image: url("img/Madrid.png");
+   background-image: url("img/Madrid.webp");
    background-size: cover;
 }
 /* Animacion para al pasar por el circuito de Madrid pase de una imagen a un gif de como se vive el circuito*/
@@ -99,7 +99,7 @@
     background-color: black;
     color: white;
     border: none;
-    padding: 10px 10px;
+    padding: 1.75vh 1.75vh;
     cursor: pointer;
     border-radius: 5px;
  }
@@ -120,7 +120,7 @@
    position: relative;
    border-radius: 8px;
    margin: 15px;
-   width: 35%;
+   width: 75vh;
    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
    transition: transform 0.3s ease-in-out;
 }

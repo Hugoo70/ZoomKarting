@@ -1,5 +1,5 @@
 .intro {
-    background-image: url("img/kart.png");
+    background-image: url("img/kart.webp");
     background-repeat: no-repeat;
     background-position: center;
     height: 55vh;
@@ -11,7 +11,8 @@
 }
 .intro:hover {
     background-color: #9E9E9E;
-    animation: temblor 0.1s infinite alternate;
+    opacity: 0.5;
+    animation: temblor 0.5ms infinite alternate;
 }
 /*Crear un efecto para intro donde tiemble para que sea la sensación de cuando arrancas uno*/
 @keyframes temblor {
@@ -19,7 +20,7 @@
     transform: translate(0);
   }
   100% {
-    transform: translate(-1.05px, -1.05px);
+    transform: translate(-1.5px, -1.5px);
   }
 }
 
@@ -44,7 +45,7 @@
     position: relative;
     border-radius: 8px;
     margin: 15px;
-    width: 35%;
+    width: 35rem;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
     transition: transform 0.3s ease-in-out;
  }
@@ -52,8 +53,24 @@
     width: 100%;
     border-radius: 8px;
  } 
+ .tarjeta i{
+    background-color: white;
+    border:2px solid black;
+    border-radius: 50px;
+    padding: 2%;
+    margin: 2%;
+ }
+ .tarjeta i:hover{
+    background-color: white;
+    border:2px solid black;
+    border-radius: 50px;
+    color: red;
+
+ }
+
  .tarjeta:hover {
     transform: scale(1.05);
+    background-color: #9E9E9E;
     border-bottom-right-radius: 8px;
     border-color: #cccccc red red #cccccc;
  }
