@@ -9,7 +9,9 @@
 .intro h2{
     font-size:xxx-large;
 }
-
+.intro h2{
+  font-size:xx-large;
+}
 .intro:hover {
     background-color: #9E9E9E;
     opacity: 0.5;

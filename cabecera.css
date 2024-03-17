@@ -100,10 +100,13 @@ footer {
     left:0px;
     bottom:0px;
     height:5.5rem;
-    width:100%;
+}
+#RS{
+    width: max-content;
+    margin-left: 25%;
 }
 footer img{
-    width: 15rem;
+    width: 5rem;
     margin-left: 10%;
     margin-right: 3%;
 }
@@ -121,22 +124,3 @@ footer img{
     }
     
 }
-
-    footer {
-        background-color: #1e1e1e;
-        color: white;
-        display: flex;
-        text-decoration: none;
-        padding: 10px;
-        left:0px;
-        bottom:0px;
-        height:5.5rem;
-        width:100%;
-    }
-
-    
-    footer img{
-        width: 5%;
-        margin-left: 10%;
-        margin-right: 3%;
-    }
