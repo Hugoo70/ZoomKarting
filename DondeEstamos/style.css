@@ -7,21 +7,6 @@
 .info h2{
     font-size: 35px;
 }
-span{
-   display: block;
-   white-space: nowrap;
-   width: 100%;
-
-   animation: typing 2s steps(25), blink .5s infinite step-end alternate
-   ;overflow: hidden;
-}
-@keyframes typing{
-   from{width: 0;}
-}
-
-@keyframes blink{
-   50%{border-color: transparent;}
-}
 .circuitos h2{
     text-align: center;
     margin: 2%;
@@ -48,7 +33,7 @@ span{
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
     transition: transform 0.3s ease-in-out;    
     width: 75vh;
-    height: 80vh;
+    height: 45vh;
     background-image: url("img/LasRozas.png");
     background-size: cover;
     position: relative;
@@ -85,7 +70,7 @@ span{
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
     transition: transform 0.3s ease-in-out;    
     width: 75vh;
-    height: 80vh;
+    height: 45vh;
     background-image: url("img/Madrid.png");
     background-size: cover;
     position: relative;
@@ -118,8 +103,7 @@ span{
       border-radius: 8px;
       box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
       width: 100vh;
-      height: 100vh;
-      background-image: url();
+      padding-bottom: 2%;
       background-size: cover;
       transition: transform 0.3s ease-in-out; 
       margin-top: 10px;
@@ -127,10 +111,5 @@ span{
 
  }
 .Opciones{
-
-   display: block;
-   white-space: nowrap;
-   width: 100%;
-
    text-align: center;
 }

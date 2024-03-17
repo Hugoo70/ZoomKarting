@@ -43,10 +43,10 @@
                     <div class="Opciones">
                         <h2>Selecciona una opción:</h2>
                     <div class="Caja">
-                        <input type="radio" name="opcion" id="opcionA" value="opcionA" onclick="mostrarImagen('opcionA')"> Opción A
+                        <input type="radio" name="opcion" id="opcionA" value="opcionA" onclick="mostrarImagen('opcionA')"> Karting La Ermita
                     </div>
                     <div class="Caja">
-                        <input type="radio" name="opcion" id="opcionB" value="opcionB" onclick="mostrarImagen('opcionB')"> Opción B
+                        <input type="radio" name="opcion" id="opcionB" value="opcionB" onclick="mostrarImagen('opcionB')"> Karting Las Rosas
                     </div>
                         <div id="imagenContenedor" style="margin-top: 20px;"></div>
                     </div>
@@ -55,9 +55,9 @@
                         function mostrarImagen(opcion) {
                             var contenedor = document.getElementById('imagenContenedor');
                             if (opcion === 'opcionA') {
-                                contenedor.innerHTML = '<img src="imagen_a.jpg" alt="Imagen A" style="max-width: 100%;">';
+                                contenedor.innerHTML = '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d97219.28351756345!2d-3.8795129027343336!3d40.40657760000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd4227f8fc4722c1%3A0xd9aac204f5ab7913!2sCarlos%20Sainz%20Karting%20Madrid!5e0!3m2!1ses!2ses!4v1710708695891!5m2!1ses!2ses" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>';
                             } else if (opcion === 'opcionB') {
-                                contenedor.innerHTML = '<img src="imagen_b.jpg" alt="Imagen B" style="max-width: 100%;">';
+                                contenedor.innerHTML = '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d97219.28351756345!2d-3.8795129027343336!3d40.40657760000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd4183450077343d%3A0x96aac5248d84d544!2sCarlos%20Sainz%20Karting%20Las%20Rozas!5e0!3m2!1ses!2ses!4v1710708725698!5m2!1ses!2ses" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>';
                             }
                         }
                     </script>
