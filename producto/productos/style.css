@@ -9,6 +9,7 @@
 .intro h2{
     font-size:xxx-large;
 }
+
 .intro:hover {
     background-color: #9E9E9E;
     opacity: 0.5;
@@ -39,13 +40,15 @@
     justify-content: space-around;
     padding: 2%;
  }
+
+ /* CSS de Kart*/
   .tarjeta {
     background-color: #fff;
     border: 3px solid black;
     position: relative;
     border-radius: 8px;
     margin: 15px;
-    width: 35rem;
+    width: 15rem;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
     transition: transform 0.3s ease-in-out;
  }
@@ -57,14 +60,17 @@
     background-color: white;
     border:2px solid black;
     border-radius: 50px;
+    justify-content:end;
     padding: 2%;
     margin: 2%;
  }
  .tarjeta i:hover{
     color: red;
-
  }
+ .tarjeta i:active{
+  transform: scale(0.9);
 
+}
  .tarjeta:hover {
     transform: scale(1.05);
     background-color: #9E9E9E;
@@ -72,35 +78,3 @@
     border-color: #cccccc red red #cccccc;
  }
 
- .tarjeta2 {
-  background-color: #fff;
-  border: 3px solid black;
-  position: relative;
-  border-radius: 8px;
-  margin: 15px;
-  width: 20rem;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
-  transition: transform 0.3s ease-in-out;
-}
-.tarjeta2 img{
-  width: 100%;
-  border-radius: 8px;
-} 
-.tarjeta2 i{
-  background-color: white;
-  border:2px solid black;
-  border-radius: 50px;
-  padding: 2%;
-  margin: 2%;
-}
-.tarjeta2 i:hover{
-  color: red;
-
-}
-
-.tarjeta2:hover {
-  transform: scale(1.05);
-  background-color: #9E9E9E;
-  border-bottom-right-radius: 8px;
-  border-color: #cccccc red red #cccccc;
-}

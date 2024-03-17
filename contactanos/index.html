@@ -27,6 +27,50 @@
 
 
 
+
+
+    <div class="container">
+        
+        <h1>Formulario de contacto</h1>
+        
+        <form action="mail.php" enctype="multipart/form-data" method="post" name="formulario_html5" autocomplete="off">
+        <label for="nombre"><h2>Nombre</h2></label>
+        <input type="text" name="nombre" id="nombre" class="cajas">
+        
+        <label for="Apellidos"><h2>Apellidos</h2></label>
+        <input type="text" name="apellidos" id="apellidos" class="cajas">
+
+        <label for="email"><h2>Email</h2></label>
+        <input type="email" name="email" id="email" class="cajas">
+        
+        <label for="estadia"><h2>Tema</h2></label>
+        <select id="estadia" class="cajas">
+        <option value="1" label="Karts">
+        <option value="2" label="Piezas">
+        <option value="3" label="Equipamiento">
+        <option value="4" label="Monos">
+        <option value="5" label="Circuitos">
+        <option value="5" label="Reservas">
+        </select>
+        
+        <label for="llegada"><h2>Mensaje</h2></label>
+        <textarea name="comentarios" class="cajas" rows="5" cols="40" placeholder="Escribe aquí tus comentarios"></textarea>
+        
+        <br>
+        <input type="submit" value="enviar" name="submit" class="btn1">
+        <input type="reset" value="Borrar" name="reser" class="btn1">
+    
+    </form>
+    
+    
+    
+    </div>
+    </div>
+
+
+
+
+
     <footer>
         <img src="../img/logo2.png">
         <hr>
