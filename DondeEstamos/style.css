@@ -1,0 +1,136 @@
+.info {
+    background-color: #1e1e1e;
+    color: #f8f8f8;
+    padding: 2%;
+    text-align: center;
+}
+.info h2{
+    font-size: 35px;
+}
+span{
+   display: block;
+   white-space: nowrap;
+   width: 100%;
+
+   animation: typing 2s steps(25), blink .5s infinite step-end alternate
+   ;overflow: hidden;
+}
+@keyframes typing{
+   from{width: 0;}
+}
+
+@keyframes blink{
+   50%{border-color: transparent;}
+}
+.circuitos h2{
+    text-align: center;
+    margin: 2%;
+    font-size: 30px;
+}
+.circuitos{
+    margin: 2%;
+
+}.pistas{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.pistas span{
+   text-align: center;
+   font-weight: normal;
+   color: #f8f8f8;
+   background-color: #EE0000;
+   border-radius: 4px;
+}
+#Rozas {
+    border: 3px solid black;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s ease-in-out;    
+    width: 75vh;
+    height: 80vh;
+    background-image: url("img/LasRozas.png");
+    background-size: cover;
+    position: relative;
+ }
+
+ #Rozas::after {
+    content: "Texto que se mostrará al pasar el cursor sobre la imagen";
+    position: absolute;
+    bottom: 10px; 
+    left: 50%; 
+    transform: translateX(-50%);
+    background-color: rgba(255, 255, 255, 0.8); 
+    padding: 5px 10px;
+    border-radius: 8px;
+    display: none; 
+ }
+
+ #Rozas:hover::after {
+    display: block;
+
+ }#Rozas:hover{
+    transform: scale(1.05);
+    border-color: #EE0000;
+    background-image: url("img/Diseño\ sin\ título.gif");
+    background-size: cover;
+ 
+ }
+
+
+
+#Madrid {
+    border: 3px solid black;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s ease-in-out;    
+    width: 75vh;
+    height: 80vh;
+    background-image: url("img/Madrid.png");
+    background-size: cover;
+    position: relative;
+ }
+
+ #Madrid::after {
+    content: "Texto que se mostrará al pasar el cursor sobre la imagen";
+    position: absolute;
+    bottom: 10px; 
+    left: 50%; 
+    transform: translateX(-50%);
+    background-color: rgba(255, 255, 255, 0.8); 
+    padding: 5px 10px;
+    border-radius: 8px;
+    display: none; 
+ }
+
+ #Madrid:hover::after {
+    display: block;
+
+ }#Madrid:hover{
+    transform: scale(1.05);
+    border-color: #EE0000;
+    background-image: url("img/Diseño\ sin\ título.gif");
+    background-size: cover;
+ 
+ }
+ #mapa{
+      border: 3px solid black;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+      width: 100vh;
+      height: 100vh;
+      background-image: url();
+      background-size: cover;
+      transition: transform 0.3s ease-in-out; 
+      margin-top: 10px;
+      margin-bottom: 10px;   
+
+ }
+.Opciones{
+
+   display: block;
+   white-space: nowrap;
+   width: 100%;
+
+   text-align: center;
+}
