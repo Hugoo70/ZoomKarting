@@ -36,12 +36,14 @@
 .info h2{
     font-size: 35px;
 }
+
 .tarjetaPadre{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     padding: 2%;
  }
+
 
  /* CSS de Kart*/
   .tarjeta {
