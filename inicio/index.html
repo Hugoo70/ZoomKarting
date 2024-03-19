@@ -10,36 +10,57 @@
     <link  rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header class="header">
+   <div id="cabecera"><header class="header">
         <div class="logo">
             <img src="../img/logo.png" alt="logo-f1" width="10%" height="15%">
         </div>
         <nav>
             <ul class="nav-links">
                 <li><a href="/inicio/index.html">Inicio</a></li>
-                <li><a href="/producto/index.html">Producto</a></li>
+                <li><a href="/producto/index.html">Productos</a></li>
                 <li><a href="/DondeEstamos/index.html">Donde Estamos?</a></li>
-                <li><a href="/contactanos/index.html">contactanos</a></li>
+                <li><a href="/contactanos/index.html">Contactanos</a></li>
            </ul>             
         </nav>
         <a class="btn" href="/log-in/index.html"><button>Log-In</button></a>
     </header>
+</div>
 
     <section class="inicio" id="inicio">  
-        <div class="content">
-            <h1>ZOOMKARTING</h1>
+       
+         <div id="class"></div><div id="video"> <video onloadedmetadata="this.muted=true" autoplay loop="true">
+            <source src="video2.mp4" type="video/mp4">
+            </video>   </div>     
+                <div id="contentv">
+             ZOOMKARTING
+           <div id="enlace"> <a class="button" href="../contactanos/index.html" style="color: white">¡Solicita información!</a></div></div>
+        </div>  
+
+    <div id="Datos">
             <h2>CIRCUITO DE KARTS EN MADRID</h2>
-            <p>El mejor Kating en Madrid para disfrutar de la velociad. Ponemos a tu disposición nuestras instalaciones para celebraciones de empresa y familia, servicios de restauración para que puedas combinar ocio y trabajo.</p>
-            <a class="heading" href="../contactanos/index.html">¡Solicita información!</a>
+
+            <p>El mejor Kating en Madrid para disfrutar de la velocidad. Ponemos a tu disposición nuestras instalaciones para celebraciones de empresa y familia, servicios de restauración para que puedas combinar ocio y trabajo.</p>
         </div>
-    
-        <video onloadedmetadata="this.muted=true" autoplay loop>
-            <source src="img/video.mp4">           
-        </video>
+         </div>
 
     </section>
 
-    <footer>
+            <div id="Productos">
+                <div id="imgProd"><img src="img/kart.jpg" width="70%" height="25%" /></div>
+                <h2>Productos</h2>
+                Mire nuestros productos en la siguiente pagina
+               <div id="enl1"> <a href="/producto/index.html" style="color:white;">Productos</a></div>
+            </div>
+            <div id="DondeEstamos">
+                <div id="imgDE"><img src="img/mapa.jpg" width="70%" height="290vh" /></div>
+                <h2>¿Donde Estamos?</h2>
+                Encuentranos en las siguientes direcciones
+                 <div id="enl2"> <a href="/DondeEstamos/index.html" style="color:white;">Localizanos</a></div>
+
+            </div>
+        
+
+   <div id="Pie"></div> <footer>
         <img src="/img/logo2.png" alt="logo">
         <hr>
         <div class="cuerpo">
@@ -54,5 +75,6 @@
             </div>
         </div>
     </footer>
+</div>
 </body>
 </html>
