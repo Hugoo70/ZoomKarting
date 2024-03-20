@@ -101,9 +101,11 @@ footer {
     bottom:0px;
     height:5.5rem;
 }
-#RS{
-    width: max-content;
-    margin-left: 25%;
+
+footer a{
+    text-decoration: none;
+    list-style: none;
+    color: white;
 }
 footer img{
     width: 5rem;
