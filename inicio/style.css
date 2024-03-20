@@ -70,11 +70,91 @@ body{
 	text-align: center;
 	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 	align-items: center;
+	background-color:body;
+	background-color: #f8f8f8;
+	margin: 0;
+	padding: 0;
+}
+#cabecera{
+	width: 100% vw;
+	float: top
+}
+#video{
+	width: 100%;
+	height: 45%;
+	top: 0%;
+	left: 0%;
+	position: relative;
+	overflow: hidden;
+	z-index: -1;
+	text-align: center;
+	border: 2px solid  #f8f8f8;
+
+}
+#contentv{
+	background-color: white;
+	padding: 10px;
+	left: 30%;
+	width: 40%;
+	border-radius: 10px;
+	position: relative;
+	bottom: 33vh;
+	text-align: center;
+	color:black;
+	font-size:xx-large;
+
+}
+#enlace{
+	position: relative;
+	left: 40.5%;
+	float: top;
+	text-align: center;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	align-items: center;
+	background-color: red;
+	width: 20%;
+	border: 2px solid black ;
+	border-radius: 10px;
+}
+#titulo{
+	color: white;
+	background-color: black;
+	padding: 20px;
+	font-size:xx-large;
+}
+#Datos{
+	padding: 5px;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	text-align: center;
+	position: relative;
+	bottom: 10vh;
+	color: black;
+}
+
+#Productos{
+	position: relative;
+	left: 150px;
+	bottom: 30px;
+	padding: 20px;
+	background-color: black;
+	width: 35%;
+	border: 2px solid red;
+	text-align: center;
+	border-radius: 10px;
+	color: white;}
+#imgProd{
+	left: 20%;
+}
+#enl1{
+	position: relative;
+	text-align: center;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	align-items: center;
 	background-color: red;
 	bottom: -1.5vh;
 	left: 12.5vw;
 	width: 20%;
-	border: 2px solid black ;
+	border: 2px solid white ;
 	border-radius: 10px;
 }
 #DondeEstamos{
@@ -83,11 +163,12 @@ body{
 	right: 150px;
 	bottom: 440px;
 	padding: 20px;
-	background-color: white;
+	background-color:black;
 	width: 35%;
-	border: 2px solid white;
+	border: 2px solid red;
 	text-align: center;
 	border-radius: 10px;
+	color: white;
 }
 
 #enl2{
@@ -99,13 +180,6 @@ body{
 	bottom: -1.5vh;
 	left: 12.5vw;
 	width: 20%;
-	border: 2px solid black ;
+	border: 2px solid white;
 	border-radius: 10px;
-}
-
-#Pie{
-	padding: 10px;
-	width: 100%;
-	float: bottom;
-
 }

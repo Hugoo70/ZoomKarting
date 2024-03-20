@@ -25,57 +25,32 @@
         <a class="btn" href="/log-in/index.html"><button>Log-In</button></a>
     </header>
     <div class="info">
-        <h2>Donde Estamos?</h2>
-        <span>En ZoomKarting queremos que tengas una experiencia inolvidable y para ello puedes visitar nuestros diferentes centros y circuitos en <strong>La Ermita</strong> y <strong>Las Rozas</strong>.</span>
+        <h2>Circuitos Karting</h2>
+        <span>Desde ZoomKarting queremos que tengas una experiencia inolvidable y para ello puedes venir a probar nuestros diferentes centros y trazados en <strong>Madrid - La Ermita</strong> y <strong>Las Rozas</strong></span>
     </div>
     <section class="circuitos">
-        <h2>Echa un vistazo a nuestros centros en Madrid de Karting y sus trazados!</h2>
+        <h2>Aqui podras acceder a la localización de nuestros circuitos!</h2>
         <div class="pistas">
-                <div id="Rozas" onclick="mostrarFrame()">
-                    <span>Las Rozas</span>
-
-                    <iframe id="IframeRozas" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d97219.28351756345!2d-3.8795129027343336!3d40.40657760000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd4227f8fc4722c1%3A0xd9aac204f5ab7913!2sCarlos%20Sainz%20Karting%20Madrid!5e0!3m2!1ses!2ses!4v1710708695891!5m2!1ses!2ses" style="border:0;" allowfullscreen="true" loading="lazy"  referrerpolicy="no-referrer-when-downgrade"></iframe>
-    <script>
-        function mostrarFrame(){
-            let iframe = document.getElementById("IframeRozas") ;
-            iframe.style.display = "block";
-
-        }
-
-    </script>
-                </div>         
-                <div id="Madrid"  onclick="mostrarFrame2()">
-                    <span>La Ermita</span>
-                    <iframe id="IframeMadrid" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d97219.28351756345!2d-3.8795129027343336!3d40.40657760000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd4183450077343d%3A0x96aac5248d84d544!2sCarlos%20Sainz%20Karting%20Las%20Rozas!5e0!3m2!1ses!2ses!4v1710708725698!5m2!1ses!2ses" style="border:0;" allowfullscreen="true" loading="lazy"  referrerpolicy="no-referrer-when-downgrade"></iframe>
-                    <script>
-                        function mostrarFrame2(){
-                            let iframe = document.getElementById("IframeMadrid") ;
-                            iframe.style.display = "block";
-                
-                        }
-                
-                    </script>
-                </div> 
                 <div id="mapa">
-                    <span>Localizacion</span>
+                    <span id="spanloca">Selecciona una opción:</span>
                     <div class="Opciones">
-                        <h2>Selecciona una opción:</h2>
-                    <div class="Caja">
-                        <input type="radio" name="opcion" id="opcionA" value="opcionA" onclick="mostrarImagen('opcionA')"> Karting La Ermita
+                
+                    <div class="Caja1"  onclick="mostrarImagen('opcionA')">
+                    <h4>Karting La Ermita</h4> 
                     </div>
-                    <div class="Caja">
-                        <input type="radio" name="opcion" id="opcionB" value="opcionB" onclick="mostrarImagen('opcionB')"> Karting Las Rosas
+                    <div class="Caja2" onclick="mostrarImagen('opcionB')">
+                        <h4>Karting Las Rosas</h4> 
                     </div>
-                        <div id="imagenContenedor" style="margin-top: 20px;"></div>
+                        <div id="imagenContenedor" style="margin-top: 20px; size: cover;"></div>
                     </div>
                     
                     <script>
                         function mostrarImagen(opcion) {
                             let contenedor = document.getElementById('imagenContenedor');
                             if (opcion === 'opcionA') {
-                                contenedor.innerHTML = '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d97219.28351756345!2d-3.8795129027343336!3d40.40657760000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd4227f8fc4722c1%3A0xd9aac204f5ab7913!2sCarlos%20Sainz%20Karting%20Madrid!5e0!3m2!1ses!2ses!4v1710708695891!5m2!1ses!2ses" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>';
+                                contenedor.innerHTML = '<div class="contenedor"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3037.0347044424375!2d-3.6335855553091103!3d40.43023043026884!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd422f6dd576fce1%3A0xa4e8262aec63eebd!2sC.%20Santo%20Domingo%20Savio%2C%202%2C%20Cdad.%20Lineal%2C%2028017%20Madrid!5e0!3m2!1ses!2ses!4v1710957742541!5m2!1ses!2ses" width="600" height="450"  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe><div class="contenedor2"><h2>ZoomKarting La Ermita</h2><br>  <p><i class="fa-solid fa-location-dot"></i> C/Santo Domingo Savio, 2, 28017</p><br>  <p><i class="fa-solid fa-phone"></i> +34 91 368 31 00 </p><br>  <p><i class="fa-regular fa-envelope"></i> Zoomkarting@zoomkarting.com</p><br><br>  <p><i class="fa-solid fa-arrow-right"></i>Bienvenido a "Karting Las Rozas", donde la emoción del karting se combina con la seguridad para principiantes. Nuestro circuito ofrece curvas suaves y rectas amplias, ideales para aprender y disfrutar al máximo. Sumérgete en la adrenalina de la velocidad en un entorno controlado y amigable. ¡Experimenta la emoción del karting en "Las Rozas" hoy mismo!</p></div></div>';
                             } else if (opcion === 'opcionB') {
-                                contenedor.innerHTML = '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d97219.28351756345!2d-3.8795129027343336!3d40.40657760000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd4183450077343d%3A0x96aac5248d84d544!2sCarlos%20Sainz%20Karting%20Las%20Rozas!5e0!3m2!1ses!2ses!4v1710708725698!5m2!1ses!2ses" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>';
+                                contenedor.innerHTML = '<div class="contenedor"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3037.0347044424375!2d-3.6335855553091103!3d40.43023043026884!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd422f6dd576fce1%3A0xa4e8262aec63eebd!2sC.%20Santo%20Domingo%20Savio%2C%202%2C%20Cdad.%20Lineal%2C%2028017%20Madrid!5e0!3m2!1ses!2ses!4v1710957742541!5m2!1ses!2ses" width="600" height="450"  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe><div class="contenedor2"><h2>ZoomKarting La mita</h2><br>  <p><i class="fa-solid fa-location-dot"></i> C/Santo Domingo Savio, 2, 28017</p><br>  <p><i class="fa-solid fa-phone"></i> +34 91 368 31 00 </p><br>  <p><i class="fa-regular fa-envelope"></i> Zoomkarting@zoomkarting.com</p><br><br>  <p><i class="fa-solid fa-arrow-right"></i>Bienvenido a "La Ermita", donde los aficionados experimentados del karting encuentran su hogar. Con curvas desafiantes y rectas vertiginosas, nuestro circuito ofrece un desafío emocionante para los pilotos expertos. Sumérgete en la emoción de la competencia mientras dominas cada curva y alcanzas la velocidad máxima. ¡Únete a nosotros en "La Ermita" y lleva tu pasión por el karting al siguiente nivel!</p></div></div>';
                             }
                         }
                     </script>
@@ -84,8 +59,15 @@
 
                 </div> 
         </div>
+    </section>
     
-    
+        <section class="album">
+            <img src="img/kart1.webp" alt="Kart1" border="2px solid #cccccc">
+            <img src="img/kart2.webp" alt="Kart2" border="2px solid #cccccc">
+            <img src="img/kart3.webp" alt="Kart3" border="2px solid #cccccc">
+            <img src="img/kart4.webp" alt="Kart4" border="2px solid #cccccc">
+            <img src="img/kart5.webp" alt="Kart5" border="2px solid #cccccc">
+        </section>
     
     
     <footer>
@@ -97,10 +79,9 @@
                 <a href="#" class="icon"><i class="fa-brands fa-google" style="color: red;"></i></a>
                 <a href="#" class="icon"><i class="fa-brands fa-twitter" style="color: white;"></i></a>
                 <a href="#" class="icon"><i class="fa-brands fa-instagram" style="color: red;"></i></a>
-                <a href="https://github.com/Hugoo70/ZoomKarting" class="icon"><i class="fa-brands fa-github" style="color: white;"></i></a>
+                <a href="#" class="icon"><i class="fa-brands fa-github" style="color: white;"></i></a>
                 <a href="#" class="icon"><i class="fa-brands fa-twitch"  style="color: red;"></i></a> </p>
             <p>&copy; 2024 ZoomKarting - By 5ºDAM</p>
-            <p> <a href="/contactanos/index.html">Contacto</a> &emsp; Aviso Legal &emsp; <a href="/DondeEstamos/index.html">Mapa</a></p>
             </div>
         </div>
     </footer>
