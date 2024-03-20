@@ -1,0 +1,3 @@
+/home/cfgs/txema/cmake-build-debug/CMakeFiles/txema.dir
+/home/cfgs/txema/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/cfgs/txema/cmake-build-debug/CMakeFiles/rebuild_cache.dir
