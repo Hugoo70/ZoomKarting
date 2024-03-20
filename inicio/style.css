@@ -1,10 +1,7 @@
 body{
 	background-color: black;
 }
-#cabecera{
-	width: 100%;
-	float: top
-}
+
 #video{
 	width: 100%;
 	height: 45%;
@@ -128,58 +125,38 @@ body{
 	text-align: center;
 	position: relative;
 	bottom: 10vh;
-	color: black;
-}
-
-#Productos{
-	position: relative;
-	left: 150px;
-	bottom: 30px;
-	padding: 20px;
-	background-color: black;
-	width: 35%;
-	border: 2px solid red;
-	text-align: center;
-	border-radius: 10px;
-	color: white;}
-#imgProd{
-	left: 20%;
-}
-#enl1{
-	position: relative;
-	text-align: center;
-	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-	align-items: center;
-	background-color: red;
-	bottom: -1.5vh;
-	left: 12.5vw;
-	width: 20%;
-	border: 2px solid white ;
-	border-radius: 10px;
-}
-#DondeEstamos{
-	position: relative;
-	float: right;
-	right: 150px;
-	bottom: 440px;
-	padding: 20px;
-	background-color:black;
-	width: 35%;
-	border: 2px solid red;
-	text-align: center;
-	border-radius: 10px;
 	color: white;
 }
 
-#enl2{
+.venta{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+ }
+  .productos {
+	background-color: #fff;
+	border: 3px solid red;
 	position: relative;
+	border-radius: 8px;
+	margin: 15px;
+	width: 75vh;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+	transition: transform 0.3s ease-in-out;
+ }
+ .productos img{
+	width: 100%;
+	border-radius: 8px;
+ }
+ .productos h2{
+	color: #f8f8f8;
+	background-color: #EE0000;
+	font-size: x-large;
+	padding: 0.6vh;
 	text-align: center;
-	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-	align-items: center;
-	background-color: red;
-	bottom: -1.5vh;
-	left: 12.5vw;
-	width: 20%;
-	border: 2px solid white;
-	border-radius: 10px;
-}
+	border-radius: 8px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+ }
+ 
